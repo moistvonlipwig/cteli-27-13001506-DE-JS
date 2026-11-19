@@ -1,0 +1,32 @@
+# ========================================== 
+# Seismological Binary Waveforms & Databases
+# ==========================================
+*.mseed
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Python Cache & Build Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# Environments & Virtual Environments
+# ==========================================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ==========================================
+# OS & IDE Specific files
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
